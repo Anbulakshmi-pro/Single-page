@@ -1,0 +1,36 @@
+.full{
+    background-color: rgb(14, 4, 46);
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    flex-direction: column;
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+    font-size:18px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    color:white;
+    gap:30px;
+    list-style: none;
+    color: white;
+    
+}
+nav ul li{
+    font-weight: bold;
+}
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-top: 70px ;
+    flex-direction: column;
+}
